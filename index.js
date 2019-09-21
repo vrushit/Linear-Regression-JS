@@ -66,11 +66,6 @@ let v1 = regression.predict([[120, 2, 380]]).flatten().buffer().get(0);
 // console.log(v2);
 let v2 = v1.toFixed(2);
 
-console.log('Hello World :', v2);
-
-
-
-
-
+console.log('Testing Value in terms of Variable : ', v2);
 
 // regression.predict([[120,2,370]]).print();
